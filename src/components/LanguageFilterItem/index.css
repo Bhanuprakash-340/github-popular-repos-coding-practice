@@ -1,0 +1,31 @@
+.each-button {
+  margin-right: 10px;
+}
+
+.nav-buttons {
+  background-color: #ffffff;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 10px 4px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-buttons {
+    font-size: 20px;
+    padding: 6px 14px 6px 14px;
+  }
+}
+
+.active {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .active {
+    border-radius: 20px;
+  }
+}
